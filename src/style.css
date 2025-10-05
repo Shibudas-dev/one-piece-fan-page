@@ -1,0 +1,201 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-img {
+    background-image: url("/wallhaven-yx3kok_1920x1080.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    height: 40px;
+    width: auto;
+}
+.navbar {
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link {
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+}
+.nav-link li a {
+    color: aliceblue;
+}
+.content {
+    text-align: center;
+}
+.content img{
+    height: 100px;
+}
+.content h1{
+    font-size: 20px;
+    padding: 0 100px; 
+    color: rgb(240, 240, 240);
+}
+.btn {
+  position: relative;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 6em;
+  transition: all 0.2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn::after {
+  background-color: #fff;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+.image {
+  height: 200px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.mainn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+  width: 250px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card img {
+ padding-bottom: 25px;
+ padding-right: 20px;
+ margin-top: 0px;
+}
+.card {
+  border-radius: 10%;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+.card {
+  border: 1px solid black;
+}
+.boddy {
+  background: radial-gradient(circle at center, #0a0a0a, #000);
+  color: #fff;
+  font-family: 'Bebas Neue', sans-serif;
+  overflow-x: hidden;
+}
+
+.headerr {
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+
+.headerr h1 {
+  font-size: 3rem;
+  color: gold;
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+}
+
+.headerr p {
+  color: #ccc;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+.quotes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 40px 60px;
+}
+
+.quote-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid gold;
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quote-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.4);
+}
+
+.quote-card p {
+  font-size: 1.3rem;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.quote-card span {
+  display: block;
+  margin-top: 12px;
+  color: gold;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+  color: #aaa;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+  margin: 0;
+}
