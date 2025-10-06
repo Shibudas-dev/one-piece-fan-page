@@ -24,7 +24,6 @@ This project is a small tribute to the legendary anime **One Piece**, featuring 
 1. **Download or Clone** this repository  
    ```bash
    git clone https://github.com/Shibudas-dev/one-piece-fan-page.git
-````
 
 2. Open the project folder in **Visual Studio Code**
 
