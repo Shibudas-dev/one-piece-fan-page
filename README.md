@@ -39,7 +39,7 @@ This project is a small tribute to the legendary anime **One Piece**, featuring 
 
 ## 📸 Project Preview
 
-![screenshot](Preview.png)
+![screenshot](preview.png)
 
 
 ## 💡 About the Project
